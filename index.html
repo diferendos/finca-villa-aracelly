@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Finca Villa Aracelly - Avistamiento de Aves</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Finca Villa Aracelly</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#sobre">Sobre el Proyecto</a></li>
+                <li><a href="#aves">Aves Observadas</a></li>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bienvenidos a la Finca Villa Aracelly</h2>
+        <p>Explora la biodiversidad de aves en Quimbaya, Quindío, Colombia.</p>
+    </section>
+
+    <section id="sobre">
+        <h2>Sobre el Proyecto</h2>
+        <p>Aquí puedes agregar una descripción detallada del estudio realizado en la Finca Villa Aracelly, incluyendo los objetivos, metodología y resultados principales.</p>
+    </section>
+
+    <section id="aves">
+        <h2>Aves Observadas</h2>
+        <p>Listado de las 175 especies de aves observadas en la finca, con detalles sobre cada una.</p>
+        <!-- Aquí puedes agregar una tabla o lista con las especies -->
+    </section>
+
+    <section id="galeria">
+        <h2>Galería de Fotos</h2>
+        <p>Fotografías e ilustraciones de las aves y el paisaje de la finca.</p>
+        <!-- Aquí puedes agregar imágenes -->
+    </section>
+
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Para más información, puedes contactarnos a través del siguiente formulario:</p>
+        <form action="submit_form.php" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Finca Villa Aracelly. Todos los derechos reservados.</p>
+    </footer>
+</body>
+</html>
