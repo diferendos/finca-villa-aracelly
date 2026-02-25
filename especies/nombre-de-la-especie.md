@@ -1,27 +1,25 @@
-# 🌿 Ficha de Especie: [Nombre de la Especie]
+# Ficha de Especie: [Alcaraván común]
 
 > **ID de Registro:** #001  
 > **Última actualización:** 25 de febrero, 2026
 
 ---
 
-## 📋 Información Básica
+## Información Básica de la Especie
 | Campo | Detalle |
 | :--- | :--- |
-| **Nombre Común** | [Ej: Café Arábica] |
-| **Nombre Científico** | *[Ej: Coffea arabica]* |
-| **Categoría** | [Ej: Cultivo / Forestal / Ganado] |
-| **Ubicación en Finca** | [Ej: Lote El Mirador] |
+| **Nombre Común** | [Alcaraván común] |
+| **Nombre Científico** | *[Vanellus chilensis]* |
+| **Estado de conservación** | [Preocupación menor (Aumento)] |
+| **Orden** | [Charadriiformes] |
+| **Clase** | [Aves] |
+| **Reino** | [Animalia] |
+| **Filo** | [Chordata] |
 
 ---
 
 ## 📖 Descripción General
-Escribe aquí los detalles físicos, origen o propósito de esta especie en tu finca. Puedes mencionar el color, tamaño y estado de salud general.
-
-## 🛠️ Cuidados y Manejo
-- [ ] **Riego/Alimentación:** Frecuencia diaria.
-- [ ] **Observaciones:** Resistente a plagas estacionales.
-- [ ] **Fecha de siembra/nacimiento:** DD/MM/AAAA.
+El tero​ o queltehue​, también referido como avefría tero, ​ entre otros nombres comunes, ​ es una especie de ave caradriforme muy extendida en la zona austral de Sudamérica. Es un ave playera. Su color es muy distintivo, con el pecho negro, hombros bronceados, el vientre blanco y la cabeza gris. Suele verse en pares o bandadas pequeñas en hábitats abiertos, cerca del agua o en pastizales secos.
 
 ---
 [⬅️ Volver al Inventario Principal](../README.md)
