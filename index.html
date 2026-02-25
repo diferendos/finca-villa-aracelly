@@ -13,6 +13,71 @@
     <p>Bienvenido/a a nuestra página de avistamiento de aves. Explora la variedad de especies que nos rodean. Aquí encontrarás las primeras 177 aves registradas en la Vereda Trocaderos, del Sector Tres Esquinas, del Municipio de Quimbaya (Quindío), Colombia, el país de la belleza.</p>
   </header>
 
+<style>
+  /* Contenedor de la Categoría (Padre) */
+  .categoria-grupo {
+    background-color: #2ea44f; /* Verde naturaleza */
+    color: white;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    padding: 5px;
+  }
+  .categoria-grupo > summary {
+    font-size: 1.2em;
+    padding: 10px;
+    list-style: none; /* Quita la flecha por defecto si prefieres */
+  }
+
+  /* Ficha de cada Ave (Hijo) */
+  .ficha-ave {
+    background-color: white;
+    color: #333;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  .ficha-ave summary {
+    padding: 8px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .detalle-contenido {
+    padding: 10px;
+    border-top: 1px ridge #eee;
+    font-size: 0.95em;
+  }
+</style>
+
+<details class="categoria-grupo">
+  <summary>💎 Categoría: Colibríes (Trochilidae)</summary>
+
+  <details class="ficha-ave">
+    <summary>🔹 Colibrí Chillón (Colibri coruscans)</summary>
+    <div class="detalle-contenido">
+      <p><strong>Descripción:</strong> Gran tamaño, color verde brillante con parches azules en las mejillas.</p>
+      <p><strong>Observación:</strong> Visto frecuentemente en las flores de San Joaquín.</p>
+    </div>
+  </details>
+
+  <details class="ficha-ave">
+    <summary>🔹 Colibrí de Cola Larga</summary>
+    <div class="detalle-contenido">
+      <p><strong>Descripción:</strong> Cola blanca muy larga, pico curvo.</p>
+    </div>
+  </details>
+</details>
+
+<details class="categoria-grupo">
+  <summary>🦅 Categoría: Rapaces</summary>
+
+  <details class="ficha-ave">
+    <summary>🔸 Gavilán Pollero</summary>
+    <div class="detalle-contenido">
+      <p><strong>Descripción:</strong> Visto sobrevolando el potrero sur al mediodía.</p>
+    </div>
+  </details>
+</details>
+  
   <!-- Galería de aves -->
   <section id="galeria">
     <h2>Galería de Aves</h2>
