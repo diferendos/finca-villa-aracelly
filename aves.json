@@ -1,0 +1,11 @@
+[
+    {
+        "common_name": "Sample Bird",
+        "scientific_name": "Sample Scientific Name",
+        "physical_characteristics": "Description of physical traits.",
+        "behavior": "Description of behavior.",
+        "habitat": "Description of habitat.",
+        "diet": "Description of diet.",
+        "conservation_status": "Current conservation status."
+    }
+]
